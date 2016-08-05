@@ -1,0 +1,19 @@
+version: v1.5.0
+ignore: {}
+patch:
+  'npm:minimatch:20160620':
+    - gulp-usemin > glob > minimatch:
+        patched: '2016-08-05T08:01:13.663Z'
+    - gulp > vinyl-fs > glob-stream > minimatch:
+        patched: '2016-08-05T08:01:13.663Z'
+    - gulp > vinyl-fs > glob-stream > glob > minimatch:
+        patched: '2016-08-05T08:01:13.663Z'
+    - gulp > vinyl-fs > glob-watcher > gaze > globule > minimatch:
+        patched: '2016-08-05T08:01:13.663Z'
+    - gulp > vinyl-fs > glob-watcher > gaze > globule > glob > minimatch:
+        patched: '2016-08-05T08:01:13.663Z'
+  'npm:negotiator:20160616':
+    - gulp-connect > connect > compression > negotiator:
+        patched: '2016-08-05T08:01:13.663Z'
+    - gulp-connect > connect > serve-index > negotiator:
+        patched: '2016-08-05T08:01:13.663Z'
