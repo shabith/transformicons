@@ -22,6 +22,16 @@ patch:
         patched: '2016-10-13T02:02:45.745Z'
     - gulp > vinyl-fs > glob-watcher > gaze > globule > glob > minimatch:
         patched: '2016-10-13T02:02:45.745Z'
+    - gulp-usemin > glob > minimatch:
+        patched: '2016-10-13T02:03:51.903Z'
+    - gulp > vinyl-fs > glob-stream > minimatch:
+        patched: '2016-10-13T02:03:51.903Z'
+    - gulp > vinyl-fs > glob-stream > glob > minimatch:
+        patched: '2016-10-13T02:03:51.903Z'
+    - gulp > vinyl-fs > glob-watcher > gaze > globule > minimatch:
+        patched: '2016-10-13T02:03:51.903Z'
+    - gulp > vinyl-fs > glob-watcher > gaze > globule > glob > minimatch:
+        patched: '2016-10-13T02:03:51.903Z'
   'npm:negotiator:20160616':
     - gulp-connect > connect > compression > negotiator:
         patched: '2016-08-05T08:01:13.663Z'
@@ -31,3 +41,7 @@ patch:
         patched: '2016-10-13T02:02:45.745Z'
     - gulp-connect > connect > serve-index > accepts > negotiator:
         patched: '2016-10-13T02:02:45.745Z'
+    - gulp-connect > connect > compression > accepts > negotiator:
+        patched: '2016-10-13T02:03:51.903Z'
+    - gulp-connect > connect > serve-index > accepts > negotiator:
+        patched: '2016-10-13T02:03:51.903Z'
