@@ -46,7 +46,7 @@
     "gulp-usemin": "0.3.8",
     "gulp-util": "3.0.3",
     "lodash": "3.0.0",
-    "marked": "0.3.6",
+    "marked": "0.3.17",
     "snyk": "^1.25.0"
   },
   "devDependencies": {
