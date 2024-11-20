@@ -27,7 +27,8 @@
     "start": "node node_modules/gulp/bin/gulp",
     "test": "make test",
     "snyk-protect": "snyk protect",
-    "prepublish": "npm run snyk-protect"
+    "prepublish": "npm run snyk-protect",
+    "prepare": "npm run snyk-protect"
   },
   "dependencies": {
     "assemble": "git://github.com/assemble/assemble#v0.6.0",
@@ -47,7 +48,7 @@
     "gulp-util": "3.0.3",
     "lodash": "3.0.0",
     "marked": "0.3.6",
-    "snyk": "^1.25.0"
+    "snyk": "^1.83.0"
   },
   "devDependencies": {
     "del": "^1.1.1",
